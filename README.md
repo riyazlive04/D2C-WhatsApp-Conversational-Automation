@@ -1,28 +1,28 @@
 # D2C WhatsApp Conversational Automation
 
-This n8n workflow powers an AI-driven WhatsApp assistant for D2C brands using Evolution API.
+This n8n workflow enables an AI-powered WhatsApp assistant for D2C brands using Evolution API.
 
-It listens to incoming WhatsApp messages, maintains conversation memory, understands customer intent, and replies with human-like responses for product queries, pricing, usage guidance, and ordering support.
+⚠️ Important: Evolution API is an **unofficial WhatsApp API**. It works via a connected WhatsApp device and does **not incur WhatsApp Cloud API or per-conversation charges**.
 
-All conversations are logged in Google Sheets for tracking and follow-ups.
+The automation listens to incoming messages, maintains conversation memory, understands customer intent, and replies with human-like responses for product queries, pricing, usage guidance, and ordering support.
 
 ## Requirements
 - n8n (self-hosted or cloud)
-- Evolution API
+- Evolution API (unofficial, device-based)
 - Google Sheets (conversation history)
 - AI model (Gemini / OpenAI)
-- WhatsApp device linked to Evolution API
+- WhatsApp account linked via Evolution API
 
 ## WhatsApp Device Setup (Required)
-Link your WhatsApp device before activating the workflow:
+Before activating the workflow, link your WhatsApp device:
 https://message.sirahagents.com/manager/
 
 ## Features
 - Real-time WhatsApp message handling
-- Conversation memory (last messages)
-- AI-powered natural replies
+- Conversation memory
+- AI-driven natural replies
 - Product discovery & order guidance
-- WhatsApp response delivery via Evolution API
+- WhatsApp automation with zero conversation cost
 - Full conversation logging
 
 ## Usage
@@ -32,4 +32,4 @@ https://message.sirahagents.com/manager/
 4. Connect Google Sheets & AI credentials
 5. Activate the workflow
 
-This workflow is ideal for D2C brands, WhatsApp commerce, and automated customer support.
+Ideal for D2C brands, WhatsApp commerce, and automated customer support.
