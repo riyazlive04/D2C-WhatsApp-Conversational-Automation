@@ -14,8 +14,10 @@ The automation listens to incoming messages, maintains conversation memory, unde
 - WhatsApp account linked via Evolution API
 
 ## WhatsApp Device Setup (Required)
-Before activating the workflow, link your WhatsApp device:
+Link your WhatsApp device here:  
 https://message.sirahagents.com/manager/
+
+For setup support, contact: **+91 9789961631**
 
 ## Features
 - Real-time WhatsApp message handling
@@ -26,10 +28,10 @@ https://message.sirahagents.com/manager/
 - Full conversation logging
 
 ## Usage
-1. Import the JSON into n8n
-2. Configure Evolution API credentials
-3. Link your WhatsApp device
-4. Connect Google Sheets & AI credentials
-5. Activate the workflow
+1. Import the JSON into n8n  
+2. Configure Evolution API credentials  
+3. Link your WhatsApp device  
+4. Connect Google Sheets & AI credentials  
+5. Activate the workflow  
 
 Ideal for D2C brands, WhatsApp commerce, and automated customer support.
